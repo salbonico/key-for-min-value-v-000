@@ -3,7 +3,7 @@
 
 def key_for_min_value(name_hash)
 temp = 1000000000
-output = "hi"
+output = nil
 
 name_hash.map do |key, value|
 if value < temp
