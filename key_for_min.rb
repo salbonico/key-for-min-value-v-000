@@ -7,6 +7,7 @@ output = "hi"
 
 name_hash.map do |key, value|
 if value < temp
+  temp = value
   output = key
 end
 
